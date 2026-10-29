@@ -18,3 +18,6 @@ html{scroll-padding-top:72px}
 .contact-card{background:rgba(255,255,255,.95);border-radius:14px}
 .contact-card .form-label{font-weight:600}
 .signup-section{padding:6rem 0}
+
+:root{--accent:#64a19d;--zoom-bg:#111}
+.zoom-cap p{font-size:1.05rem}

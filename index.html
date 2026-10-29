@@ -10,7 +10,9 @@
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800" rel="stylesheet">
 <link href="styles.css" rel="stylesheet">
-<link href="custom.css" rel="stylesheet">
+<link href="custom.css?v=2" rel="stylesheet">
+<link href="fx.css?v=1" rel="stylesheet">
+<script>document.documentElement.classList.add('fx-js')</script>
 </head>
 <body id="page-top">
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -38,12 +40,20 @@
     </div>
   </div>
 </header>
+<div class="marquee" aria-hidden="true"><div><span>Charcoal grill</span>&bull;<span>Fresh mezze</span>&bull;<span>Arabic coffee</span>&bull;<span>Family majlis</span>&bull;<span>Charcoal grill</span>&bull;<span>Fresh mezze</span>&bull;<span>Arabic coffee</span>&bull;<span>Family majlis</span>&bull;</div></div>
+<section class="zoom-stage" id="signature" aria-label="Signature dish">
+  <div class="zoom-sticky">
+    <img class="zoom-img" src="img/mezze.jpg" alt="A table of fresh mezze plates" width="1600" height="1067" decoding="async">
+    <div class="zoom-top"><span class="zoom-kick">Keep scrolling</span><h2>Our signature table</h2></div>
+    <div class="zoom-cap"><span class="zoom-kick">Signature</span><h2>Mezze for two</h2><p class="mb-0 mt-2">Hummus, mutabbal, tabbouleh and warm bread. SAR 45</p></div>
+  </div>
+</section>
 <main>
 <section class="about-section text-center" id="about">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-lg-8">
-        <h2 class="text-white mb-4">Family recipes, cooked over charcoal</h2>
+        <h2 class="text-white mb-4" data-reveal>Family recipes, cooked over charcoal</h2>
         <p class="text-white-50">Sumac Grill is a family restaurant serving grilled meats, mezze and home style rice dishes. Dine in our majlis seating, order a takeaway, or book a table for your next family gathering.</p>
         <a class="btn btn-primary mt-2" href="#contact">Book a table</a>
       </div>
@@ -53,26 +63,26 @@
 <section class="projects-section bg-light" id="menu">
   <div class="container px-4 px-lg-5">
     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-      <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/grill.jpg" alt="Kebab skewers on a charcoal grill" width="1600" height="1067" loading="lazy"></div>
-      <div class="col-xl-4 col-lg-5"><div class="featured-text text-center text-lg-left"><h3 class="h4">From the grill</h3><p class="text-black-50 mb-0">Every skewer is marinated overnight and cooked to order on real charcoal.</p></div></div>
+      <div class="col-xl-8 col-lg-7"><img data-reveal class="img-fluid mb-3 mb-lg-0" src="img/grill.jpg" alt="Kebab skewers on a charcoal grill" width="1600" height="1067" loading="lazy"></div>
+      <div class="col-xl-4 col-lg-5"><div class="featured-text text-center text-lg-left"><h3 class="h4" data-reveal>From the grill</h3><p class="text-black-50 mb-0">Every skewer is marinated overnight and cooked to order on real charcoal.</p></div></div>
     </div>
-    <h3 class="text-center text-uppercase mb-4 menu-title">Menu highlights</h3>
-    <div class="row"><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Mixed grill platter</h4><p class="mb-0 small text-black-50">Lamb kofta, chicken shish and beef kebab with grilled vegetables and bread.</p></div><span class="price">SAR 68</span></div></div><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Mezze for two</h4><p class="mb-0 small text-black-50">Hummus, mutabbal, tabbouleh, vine leaves and warm bread.</p></div><span class="price">SAR 45</span></div></div><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Chicken shawarma plate</h4><p class="mb-0 small text-black-50">Garlic sauce, pickles, fries and salad.</p></div><span class="price">SAR 32</span></div></div><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Lamb kabsa</h4><p class="mb-0 small text-black-50">Slow cooked lamb on spiced rice with nuts and raisins.</p></div><span class="price">SAR 58</span></div></div><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Fattoush salad</h4><p class="mb-0 small text-black-50">Crisp vegetables, sumac, pomegranate and toasted bread.</p></div><span class="price">SAR 22</span></div></div><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Kunafa</h4><p class="mb-0 small text-black-50">Warm cheese kunafa with syrup and pistachio.</p></div><span class="price">SAR 24</span></div></div><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Arabic coffee and dates</h4><p class="mb-0 small text-black-50">A pot of saffron coffee with fresh dates.</p></div><span class="price">SAR 18</span></div></div><div class="col-md-6 mb-3"><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Fresh juice</h4><p class="mb-0 small text-black-50">Orange, lemon mint or mango.</p></div><span class="price">SAR 14</span></div></div></div>
+    <h3 class="text-center text-uppercase mb-4 menu-title" data-reveal>Menu highlights</h3>
+    <div class="row"><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Mixed grill platter</h4><p class="mb-0 small text-black-50">Lamb kofta, chicken shish and beef kebab with grilled vegetables and bread.</p></div><span class="price">SAR 68</span></div></div><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Mezze for two</h4><p class="mb-0 small text-black-50">Hummus, mutabbal, tabbouleh, vine leaves and warm bread.</p></div><span class="price">SAR 45</span></div></div><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Chicken shawarma plate</h4><p class="mb-0 small text-black-50">Garlic sauce, pickles, fries and salad.</p></div><span class="price">SAR 32</span></div></div><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Lamb kabsa</h4><p class="mb-0 small text-black-50">Slow cooked lamb on spiced rice with nuts and raisins.</p></div><span class="price">SAR 58</span></div></div><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Fattoush salad</h4><p class="mb-0 small text-black-50">Crisp vegetables, sumac, pomegranate and toasted bread.</p></div><span class="price">SAR 22</span></div></div><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Kunafa</h4><p class="mb-0 small text-black-50">Warm cheese kunafa with syrup and pistachio.</p></div><span class="price">SAR 24</span></div></div><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Arabic coffee and dates</h4><p class="mb-0 small text-black-50">A pot of saffron coffee with fresh dates.</p></div><span class="price">SAR 18</span></div></div><div class="col-md-6 mb-3" data-reveal><div class="menu-item d-flex justify-content-between gap-3"><div><h4 class="h6 mb-1 text-uppercase">Fresh juice</h4><p class="mb-0 small text-black-50">Orange, lemon mint or mango.</p></div><span class="price">SAR 14</span></div></div></div>
     <p class="text-center small text-black-50 mt-2">Prices include VAT. Full menu available in the restaurant.</p>
   </div>
 </section>
 <section class="projects-section bg-light pt-0" id="gallery">
   <div class="container px-4 px-lg-5">
     <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-      <div class="col-lg-6"><img class="img-fluid" src="img/mezze.jpg" alt="A table of mezze dishes" width="1600" height="1067" loading="lazy"></div>
+      <div class="col-lg-6"><img data-reveal class="img-fluid" src="img/mezze.jpg" alt="A table of mezze dishes" width="1600" height="1067" loading="lazy"></div>
       <div class="col-lg-6"><div class="bg-black text-center h-100 project"><div class="d-flex h-100"><div class="project-text w-100 my-auto text-center text-lg-left"><h4 class="text-white">Mezze to share</h4><p class="mb-0 text-white-50">Hot and cold plates for the whole table.</p><hr class="d-none d-lg-block mb-0 ms-0"></div></div></div></div>
     </div>
     <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-      <div class="col-lg-6"><img class="img-fluid" src="img/hummus.jpg" alt="Hummus with olive oil" width="1600" height="1067" loading="lazy"></div>
+      <div class="col-lg-6"><img data-reveal class="img-fluid" src="img/hummus.jpg" alt="Hummus with olive oil" width="1600" height="1067" loading="lazy"></div>
       <div class="col-lg-6 order-lg-first"><div class="bg-black text-center h-100 project"><div class="d-flex h-100"><div class="project-text w-100 my-auto text-center text-lg-right"><h4 class="text-white">Made fresh daily</h4><p class="mb-0 text-white-50">Hummus, bread and sauces made in our kitchen every morning.</p><hr class="d-none d-lg-block mb-0 me-0"></div></div></div></div>
     </div>
     <div class="row gx-0 justify-content-center">
-      <div class="col-lg-6"><img class="img-fluid" src="img/coffee.jpg" alt="Arabic coffee with dates" width="1600" height="1067" loading="lazy"></div>
+      <div class="col-lg-6"><img data-reveal class="img-fluid" src="img/coffee.jpg" alt="Arabic coffee with dates" width="1600" height="1067" loading="lazy"></div>
       <div class="col-lg-6"><div class="bg-black text-center h-100 project"><div class="d-flex h-100"><div class="project-text w-100 my-auto text-center text-lg-left"><h4 class="text-white">Coffee and dates</h4><p class="mb-0 text-white-50">Finish with saffron coffee, served the traditional way.</p><hr class="d-none d-lg-block mb-0 ms-0"></div></div></div></div>
     </div>
   </div>
@@ -82,7 +92,7 @@
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-md-10 col-lg-8 mx-auto">
         <div class="contact-card p-4 p-md-5">
-          <h2 class="text-uppercase mb-4 text-center">Book a table</h2>
+          <h2 class="text-uppercase mb-4 text-center" data-reveal>Book a table</h2>
           <form action="https://formspree.io/f/your-form-id" method="POST">
   <div class="mb-3"><label class="form-label" for="name">Name</label><input class="form-control" id="name" name="name" type="text" required autocomplete="name"></div>
   <div class="mb-3"><label class="form-label" for="phone">Phone or email</label><input class="form-control" id="phone" name="contact" type="text" required></div>
@@ -110,5 +120,6 @@
 <a class="wa-float" href="https://wa.me/" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16.04 3C9.1 3 3.47 8.6 3.47 15.5c0 2.2.58 4.36 1.68 6.26L3.36 28.4l6.82-1.78a12.6 12.6 0 0 0 5.86 1.47h.01c6.93 0 12.57-5.6 12.57-12.5C28.62 8.6 22.98 3 16.04 3zm0 22.95h-.01a10.5 10.5 0 0 1-5.33-1.45l-.38-.23-4.05 1.06 1.08-3.93-.25-.4a10.3 10.3 0 0 1-1.6-5.5c0-5.74 4.7-10.4 10.5-10.4 5.79 0 10.49 4.66 10.49 10.4 0 5.75-4.7 10.45-10.45 10.45zm5.76-7.8c-.32-.16-1.86-.91-2.15-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.18.21-.37.23-.68.08-.32-.16-1.33-.49-2.53-1.55-.94-.83-1.57-1.86-1.75-2.17-.18-.31-.02-.48.14-.64.14-.14.32-.37.47-.55.16-.18.21-.31.32-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.7-.97-2.33-.26-.61-.52-.53-.71-.54h-.61c-.21 0-.55.08-.84.39-.29.31-1.1 1.07-1.1 2.62 0 1.54 1.13 3.03 1.29 3.24.16.21 2.22 3.37 5.37 4.72.75.32 1.34.52 1.8.66.75.24 1.44.2 1.98.12.6-.09 1.86-.75 2.12-1.48.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.6-.36z"/></svg><span>WhatsApp</span></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="scripts.js"></script>
+<script src="fx.js?v=1"></script>
 </body>
 </html>
